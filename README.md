@@ -26,5 +26,5 @@
 
 # bitcoind
 
-Build linux
+Bitcoin Core Linux build
 
