@@ -22,7 +22,7 @@ RUN mkdir .bitcoin \
 
 VOLUME ["/home/bitcoin/.bitcoin"]
 
-EXPOSE 8333/tcp 8333/udp 8332/tcp 18333/tcp 18333/udp 18332/tcp 18444/tcp 18444/udp 18443/tcp
+EXPOSE 8333/tcp 8333/udp 8332/tcp 18333/tcp 18333/udp 18332/tcp 38333/tcp 38333/udp 38332/tcp 18444/tcp 18444/udp 18443/tcp
 
 CMD ["bitcoind", "-printtoconsole", "-nodebuglogfile"]
 
